@@ -1,0 +1,130 @@
+/* General Design*/
+body{
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	line-height: 1.2rem;
+	background-color: #ffffff;
+	background-image: url(images/abstract-bg5.png);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+#container{
+	position: relative;
+	width: 70%;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+h1, h2, h3{
+	font-family: Playfair Display, serif;
+	color: #3E54AC;
+}
+
+p{
+	padding: 0px 3Opx 0px 30px;
+}
+
+a{
+	text-decoration: none;
+	color: #8294C4;
+	transition: color 0.7s ease-in;
+}
+
+a:hover{
+	color: #655DBB;
+}
+
+.button{
+	border: 1px solid #8294C4;
+	border-radius: 5px;
+	margin: 2px;
+	padding: 3px 6px 3px 6px;
+}
+
+.button:hover{
+	border: 1px solid #655DBB;
+	background-color: rgba(200, 200, 200, 0.1);
+}
+
+ul{
+  list-style-type: none;
+}
+
+img{
+	border-radius: 5px;
+	margin: 0px 10px 0px 10px;
+	max-height: 100px;
+	max-width: 200px;
+}
+
+i{
+	font-size: 17px;
+}
+
+
+/*Customed design elements*/
+#intro{
+	margin-top: 20%;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+.profile-pic{
+	overflow: hidden;
+	border-radius: 50%;
+	height: 150px;
+	padding: 5px;
+	border: 1px solid #8294C4;
+}
+
+.div-frame{
+	border-radius: 5px;
+	box-shadow: 5px 2px 15px rgba(200, 200, 200, 0.3), -2px 0px 15px rgba(200, 200, 200, 0.3);
+	margin: 0px auto 30px;
+	padding: 2px;
+	background-color: #ffffff;
+}
+
+.div-flex{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+#footer{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+
+}
+
+#footer li{
+	display: inline;
+	padding-right: 30px;
+}
+
+#footer i{
+	font-size: 30px;
+}
+
+/*Design for tablet*/
+@media (max-width: 960px) {
+	.container{
+		width: 80%;
+	}
+}
+
+
+/*Design for phone*/
+@media (max-width: 760px) {
+	.container{
+		width: 98%;
+	}
+}
